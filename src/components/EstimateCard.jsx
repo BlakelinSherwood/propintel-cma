@@ -30,7 +30,7 @@ export default function EstimateCard({ est, town, pulse, comps }) {
           <span className="rend">High Confidence</span>
         </div>
         <div className="cbadges">
-          <span className="cbadge hi">checkmark {soldCount} Active Comps</span>
+          <span className="cbadge hi">✓ {soldCount} Active Comps</span>
           <span className="cbadge hi">MLS Data</span>
           <span className="cbadge hi">{confPct}% Confidence</span>
           <span className="cbadge md">${est.ppsf}/sqft</span>
